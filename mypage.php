@@ -26,11 +26,6 @@ if (!($talk_id == "")) {
 }
 ?>
 
-<!-- 
-スクロールバーをbox内にだけ表示させたい
-参考:http://javascript123.seesaa.net/article/103060039.html
- -->
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>マイページ</title>
@@ -295,7 +290,7 @@ if (!($talk_id == "")) {
     <?php
     // トーク中かどうかを調べる
     if ($talk_id == "") {
-        echo "<div class=\"notice\">友だちを選択してトークを始めましょう。</div>";
+        echo '<div class="notice">友だちを選択してトークを始めましょう。</div>';
     } else {
         // トーク中の相手を表示
         echo '<div>';

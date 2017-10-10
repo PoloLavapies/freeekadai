@@ -22,7 +22,7 @@ $name = $mysqli->query($sql);
 $name = $name->fetch_all();
 $name = $name[0][0];
 
-// 探したユーザーが検索されなかったか自分だった場合
+// 探したユーザーが存在しないまたは自分の場合、それ以外の場合で場合分け
 if ($name == "" || $friend_id == $id) {
     $_SESSION['add_state'] = 'error';
     header("Location: /mypage.php");

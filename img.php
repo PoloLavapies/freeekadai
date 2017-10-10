@@ -14,7 +14,6 @@ if (!(is_uploaded_file($tempfile))) {
 // ファイル名
 $filename = $_FILES['img']['name'];
 // 拡張子
-// strrpos(ファイル名,部分文字列)は部分文字列が最後に現れる箇所を返す
 $ext = substr($filename, strrpos($filename, '.') + 1);
 
 $mysqli = new mysqli('localhost', 'root', 'root', 'db');
