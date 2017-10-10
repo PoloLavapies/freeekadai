@@ -1,0 +1,177 @@
+#box1 {
+    border: 3px solid greenyellow;
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img#icon {
+    width: 46%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+#nameidlogout {
+    width: 50%;
+    margin-left: 2%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#filechangebtns {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#choose_file {
+    width: 100%;
+}
+
+.line {
+    border-top: 3px solid greenyellow;
+}
+
+#search_friend {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+img#add_icon {
+    margin-left: 1%;
+    width: 46%;
+    height: auto;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+#add_idname {
+    margin-left: 2%;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#add_talk {
+    margin-left: 5px;
+}
+
+#box2 {
+    border: 3px solid greenyellow;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.notice {
+    margin-left: 5px;
+}
+
+#midoku_index {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#list_index {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#midoku_area {
+    height: 30%;
+    overflow: scroll;
+}
+
+.add_btn_notice{
+    width: 20%;
+    display: inline-block;
+}
+
+.delete_btn_notice {
+    width: 18%;
+    display: inline-block;
+}
+
+#friend_area {
+    height: 40%;
+    overflow: scroll;
+}
+
+.friend_icon {
+    padding-right: 1%;
+    width: 20%;
+    height: auto;
+}
+
+.friend_id {
+    width: 120;
+    display: inline-block;
+}
+
+.friend_name {
+    width: 20%;
+    display: inline-block;
+}
+
+.talk_btn {
+    width: 15%;
+    display: inline-block;
+}
+
+.friend_delete {
+    width: 20%;
+    display: inline-block;
+}
+
+#box3 {
+    border: 3px solid greenyellow;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.iconmessage {
+    margin-bottom: 10px;
+}
+
+#message_area {
+    height: 60%;
+    overflow: scroll
+}
+
+.friend_icon_mini {
+    vertical-align: middle;
+    padding-right: 1%;
+    width: 15%;
+    height: auto;
+    display: inline-block;
+}
+
+.message {
+    vertical-align: middle;
+    width: 74%;
+    display: inline-block;
+}
+
+.message_delete_btn {
+    vertical-align: middle;
+    width: 10%;
+    display: inline-block;
+}
+
+#new_message_area {
+    float: left;
+    width: 90%;
+    height: 10%;
+    display: inline-block;
+}
+
+#message_send {
+    float: right;
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+}
+
